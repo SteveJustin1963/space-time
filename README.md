@@ -75,115 +75,84 @@ Let
 * (B=(t_B,x_B))
 
 Define
-```math
-[
-\Delta t = t_B-t_A,\qquad \Delta x = x_B-x_A
-]
-```
+$\Delta t = t_B-t_A,\qquad \Delta x = x_B-x_A$
+
 
 Minkowski interval (signature (+ -)):
-```math
-[
-s^2 = (\Delta t)^2 - (\Delta x)^2
-]
-```
+$s^2 = (\Delta t)^2 - (\Delta x)^2$
+
 
 * **timelike:** ($s^2>0 \iff |\Delta t|>|\Delta x|$)
 * **null:** ($s^2=0 \iff |\Delta t|=|\Delta x|$)
 * **spacelike:** ($s^2<0 \iff |\Delta t|<|\Delta x|$)
 
 For “B is in the *future* of A” (i.e., A can causally affect B), you need:
-```math
-[
-\Delta t \ge |\Delta x| \quad \text{and}\quad \Delta t>0
-]
-```
+$\Delta t \ge |\Delta x| \quad \text{and}\quad \Delta t>0$
+
 ---
 
 ## 2) Light-cone inequalities
 
-Future of event ($E=(t_0,x_0)$):
-```math
-[
-t\ge t_0,\qquad t-t_0 \ge |x-x_0|
-]
-```
+Future of event (E=(t_0,x_0)):
+$t\ge t_0,\qquad t-t_0 \ge |x-x_0|$
+
 Past of event (E):
-```math
-[
-t\le t_0,\qquad t_0-t \ge |x-x_0|
-]
-```
-So for ($A=(0,0)$) and ($B=(T,X)$):
+$t\le t_0,\qquad t_0-t \ge |x-x_0|$
+
+So for (A=(0,0)) and (B=(T,X)):
 
 **Future cone of A**
-[
-t\ge 0,\qquad t\ge |x|
-]
+$t\ge 0,\qquad t\ge |x|$
 
 **Past cone of B**
-[
-t\le T,\qquad T-t \ge |x-X|
-]
+$t\le T,\qquad T-t \ge |x-X|$
 
 ---
 
 ## 3) The “causal diamond” = intersection that matters for influence
 
 If you mean “interlink” as **events that are reachable from A and can still reach B**, that set is:
-[
-\boxed{\ \mathcal{D} = J^+(A)\cap J^-(B)\ }
-]
+$\boxed{\ \mathcal{D} = J^+(A)\cap J^-(B)\ }$
+
 i.e.
-[
-t\ge |x|\quad \text{and}\quad T-t \ge |x-X|
-]
+$t\ge |x|\quad \text{and}\quad T-t \ge |x-X|$
+
 
 ### Light-cone coordinates make it trivial
 
 Define:
-[
-u=t-x,\qquad v=t+x
-]
-For (A=(0,0)): (u\ge 0,\ v\ge 0)
+$u=t-x,\qquad v=t+x$
+
+For (A=(0,0)): ($u\ge 0,\ v\ge 0$)
 
 For (B=(T,X)):
-[
-u_B = T-X,\qquad v_B = T+X
-]
+$u_B = T-X,\qquad v_B = T+X$
+
 The condition “inside past of (B)” becomes:
-[
-u\le u_B,\qquad v\le v_B
-]
+$u\le u_B,\qquad v\le v_B$
 
 So the diamond is just:
-[
-\boxed{,0\le u\le (T-X),\quad 0\le v\le (T+X),}
-]
+$\boxed{,0\le u\le (T-X),\quad 0\le v\le (T+X),}$
+
 
 And it’s **non-empty iff**
-[
-T-X\ge 0 \ \text{and}\ T+X\ge 0\quad \Longleftrightarrow\quad T\ge |X|
-]
+$T-X\ge 0 \ \text{and}\ T+X\ge 0\quad \Longleftrightarrow\quad T\ge |X|$
+
 That’s exactly the causal condition.
 
 ---
 
 ## 4) Vertices of the intersection diamond (explicit geometry)
 
-Assume (A=(0,0)), (B=(T,X)) with (T\ge |X|) and (T>0).
+Assume (A=(0,0)), (B=(T,X)) with ($T\ge |X|$) and (T>0).
 
 Two nontrivial vertices occur where null boundaries cross:
 
 * Intersection of (A)’s right-going null line (x=t) with (B)’s right boundary of the past cone (x=X+T-t):
-  [
-  t=\frac{T+X}{2},\quad x=\frac{T+X}{2}
-  ]
+$t=\frac{T+X}{2},\quad x=\frac{T+X}{2}$
 
 * Intersection of (A)’s left-going null line (x=-t) with (B)’s left boundary of the past cone (x=X-T+t):
-  [
-  t=\frac{T-X}{2},\quad x=-\frac{T-X}{2}
-  ]
+$t=\frac{T-X}{2},\quad x=-\frac{T-X}{2}$
 
 So the diamond vertices are:
 [
