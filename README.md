@@ -165,11 +165,11 @@ with $T\ge |X|$ and $T>0$
 
 Two nontrivial vertices occur where null boundaries cross:
 
-* Intersection of (A)’s right-going null line (x=t) with (B)’s right boundary of the past cone (x=X+T-t):
+* Intersection of (A)’s right-going null line (x=t) with (B)’s right boundary of the past cone $x=X+T-t$:
 
 $t=\frac{T+X}{2},\quad x=\frac{T+X}{2}$
 
-* Intersection of (A)’s left-going null line (x=-t) with (B)’s left boundary of the past cone (x=X-T+t):
+* Intersection of (A)’s left-going null line (x=-t) with (B)’s left boundary of the past cone $x=X-T+t$:
 
 $t=\frac{T-X}{2},\quad x=-\frac{T-X}{2}$
 
