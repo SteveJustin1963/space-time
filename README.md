@@ -144,7 +144,7 @@ $u=t-x,\qquad v=t+x$
 
 For $A=(0,0)$: $u\ge 0,\ v\ge 0$
 
-For (B=(T,X)):
+For $B=(T,X)$:
 
 $u_B = T-X,\qquad v_B = T+X$
 
@@ -204,7 +204,7 @@ Nice: the diamond’s area is proportional to the invariant interval.
 
 ## 5) Your two example points (computed)
 
-### Example 1: (B=(2,1))
+### Example 1: $B=(2,1)$
 
 Interval:
 
@@ -219,7 +219,7 @@ Area:
 
 $\text{Area}=\frac12(2^2-1^2)=\frac32=1.5$
 
-### Example 2: (B=(2,3))
+### Example 2: $B=(2,3)$
 
 Interval:
 
@@ -235,11 +235,17 @@ $\boxed{J^+(A)\cap J^-(B)=\varnothing}$
 
 No signal from (A) can reach (B).
 
-**But:** ($J^+(A)\cap J^+(B)$) (overlap of *futures*) is generally **not empty** even when spacelike—there are events in the far future that lie in both future cones.
+**But:** 
+
+$J^+(A)\cap J^+(B)$ 
+
+(overlap of *futures*) is generally **not empty** even when spacelike—there are events in the far future that lie in both future cones.
 
 ---
 
-If you want, I can extend this to **3+1D** (replace ($|x-X|$) with spatial radius ($r=\sqrt{(x-X)^2+(y-Y)^2+(z-Z)^2})$) and show how the diamond becomes a 4D “Alexandrov interval,” with volume formulas in terms of ($s^2$).
+If you want, I can extend this to **3+1D** 
+
+replace $|x-X|$ with spatial radius $r=\sqrt{(x-X)^2+(y-Y)^2+(z-Z)^2})$ and show how the diamond becomes a 4D “Alexandrov interval,” with volume formulas in terms of $s^2$.
 
 //
 
@@ -251,12 +257,12 @@ Sure. Your text is basically saying: “When do two events’ light cones overla
 
 Pick an event (A) (a point in spacetime). From that point:
 
-* The **future light cone** is every event that **can be reached** from (A) by something moving at **speed ($\le c$)** (light or slower).
-* The **past light cone** is every event that **could have sent a signal** to (A) at speed (\le c).
+* The **future light cone** is every event that **can be reached** from (A) by something moving at **speed $\le c$** (light or slower).
+* The **past light cone** is every event that **could have sent a signal** to (A) at speed $\le c$.
 
-In natural units we set (c=1), so “speed of light” lines are just slopes ($\pm 1$).
+In natural units we set (c=1), so “speed of light” lines are just slopes $\pm 1$.
 
-For (A=(0,0)), the cone edges are:
+For $A=(0,0)$, the cone edges are:
 
 $t = |x| \quad (\text{future edge}),\qquad t = -|x| \quad (\text{past edge})$
 
@@ -268,7 +274,7 @@ That inequality means: “time separation is big enough compared to space separa
 
 ---
 
-## The interval (s^2): how you classify two events
+## The interval $s^2$: how you classify two events
 
 For two events (A) and (B), define
 
@@ -280,7 +286,7 @@ $s^2 = (\Delta t)^2 - (\Delta x)^2$
 
 This single number tells you what’s possible:
 
-### 1) ($s^2>0$) (timelike)
+### 1) $s^2>0$ (timelike)
 
 $|\Delta t|>|\Delta x|$
 
@@ -288,13 +294,13 @@ Meaning: there’s enough time for a slower-than-light object to go from one to 
 
 So **one event can causally affect the other** ($if (\Delta t>0$), then ($A\to B)$).
 
-### 2) ($s^2=0$) (null)
+### 2) $s^2=0$ (null)
 
 $|\Delta t|=|\Delta x|$
 
 Meaning: only **light** exactly can connect them (they lie on each other’s cone boundary).
 
-### 3) ($s^2<0$) (spacelike)
+### 3) $s^2<0$ (spacelike)
 
 $|\Delta t|<|\Delta x|$
 
@@ -349,15 +355,15 @@ Your original text blurred these ideas a bit, so I corrected it.
 
 ## Your two numerical examples explained
 
-### Example 1: (B=(t,x)=(2,1))
+### Example 1: $B=(t,x)=(2,1)$
 
 $s^2 = 2^2 - 1^2 = 4-1=3>0$
 
-So it’s **timelike**: (B) is inside the future cone of (A=(0,0)).
+So it’s **timelike**: (B) is inside the future cone of $A=(0,0)$.
 
 Translation: a light signal from (A) at (t=0) can reach (x=1) by (t=1). Since (B) happens at (t=2), there’s plenty of time. So **A can influence B**.
 
-### Example 2: (B=(2,3))
+### Example 2: $B=(2,3)$
 
 $s^2 = 2^2-3^2 = 4-9=-5<0$
 
