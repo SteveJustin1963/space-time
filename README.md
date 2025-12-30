@@ -63,7 +63,14 @@ plot_two_events(2, 3, title="Spacelike separation: future(A) ∩ past(B) is empt
     
 
 
-Here’s the clean “do the maths” version in **1+1D Minkowski spacetime** (one space (x), one time (t)), with (c=1). I’ll also fix one subtle point: **even if two events are spacelike separated, their *future* light cones can still overlap**. What spacelike separation forbids is **A influencing B (or B influencing A)**.
+Here’s the clean “do the maths” version in **1+1D Minkowski spacetime** 
+- one space (x)
+- one time (t))
+- with (c=1).
+
+Fix one subtle point: **even if two events are spacelike separated, their *future* light cones can still overlap**. 
+
+What spacelike separation forbids is **A influencing B (or B influencing A)**.
 
 ---
 
@@ -71,14 +78,16 @@ Here’s the clean “do the maths” version in **1+1D Minkowski spacetime** (o
 
 Let
 
-* (A=(t_A,x_A))
-* (B=(t_B,x_B))
+* $A=(t_A,x_A)$
+* $B=(t_B,x_B)$
 
 Define
+
 $\Delta t = t_B-t_A,\qquad \Delta x = x_B-x_A$
 
 
-Minkowski interval (signature (+ -)):
+Minkowski interval signature (+ -):
+
 $s^2 = (\Delta t)^2 - (\Delta x)^2$
 
 
@@ -89,13 +98,14 @@ $s^2 = (\Delta t)^2 - (\Delta x)^2$
 For “B is in the *future* of A” (i.e., A can causally affect B), 
 
 you need:
+
 $\Delta t \ge |\Delta x| \quad \text{and}\quad \Delta t>0$
 
 ---
 
 ## 2) Light-cone inequalities
 
-Future of event (E=(t_0,x_0)):
+Future of event $E=(t_0,x_0)$:
 
 $t\ge t_0,\qquad t-t_0 \ge |x-x_0|$
 
@@ -103,12 +113,14 @@ Past of event (E):
 
 $t\le t_0,\qquad t_0-t \ge |x-x_0|$
 
-So for (A=(0,0)) and (B=(T,X)):
+So for $A=(0,0)$ and $B=(T,X)$:
 
 **Future cone of A**
+
 $t\ge 0,\qquad t\ge |x|$
 
 **Past cone of B**
+
 $t\le T,\qquad T-t \ge |x-X|$
 
 ---
@@ -130,7 +142,7 @@ Define:
 
 $u=t-x,\qquad v=t+x$
 
-For (A=(0,0)): ($u\ge 0,\ v\ge 0$)
+For $A=(0,0)$: $u\ge 0,\ v\ge 0$
 
 For (B=(T,X)):
 
