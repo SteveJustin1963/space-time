@@ -155,7 +155,13 @@ That’s exactly the causal condition.
 
 ## 4) Vertices of the intersection diamond (explicit geometry)
 
-Assume ($A=(0,0)$), ($B=(T,X)$) with ($T\ge |X|$) and (T>0).
+Assume 
+
+$A=(0,0)$
+
+$B=(T,X)$
+
+with $T\ge |X|$ and $T>0$
 
 Two nontrivial vertices occur where null boundaries cross:
 
