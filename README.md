@@ -86,7 +86,9 @@ $s^2 = (\Delta t)^2 - (\Delta x)^2$
 * **null:** ($s^2=0 \iff |\Delta t|=|\Delta x|$)
 * **spacelike:** ($s^2<0 \iff |\Delta t|<|\Delta x|$)
 
-For “B is in the *future* of A” (i.e., A can causally affect B), you need:
+For “B is in the *future* of A” (i.e., A can causally affect B), 
+
+you need:
 $\Delta t \ge |\Delta x| \quad \text{and}\quad \Delta t>0$
 
 ---
