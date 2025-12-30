@@ -75,38 +75,46 @@ Let
 * (B=(t_B,x_B))
 
 Define
+```math
 [
 \Delta t = t_B-t_A,\qquad \Delta x = x_B-x_A
 ]
+```
+
 Minkowski interval (signature (+ -)):
+```math
 [
 s^2 = (\Delta t)^2 - (\Delta x)^2
 ]
+```
 
-* **timelike:** (s^2>0 \iff |\Delta t|>|\Delta x|)
-* **null:** (s^2=0 \iff |\Delta t|=|\Delta x|)
-* **spacelike:** (s^2<0 \iff |\Delta t|<|\Delta x|)
+* **timelike:** ($s^2>0 \iff |\Delta t|>|\Delta x|$)
+* **null:** ($s^2=0 \iff |\Delta t|=|\Delta x|$)
+* **spacelike:** ($s^2<0 \iff |\Delta t|<|\Delta x|$)
 
 For “B is in the *future* of A” (i.e., A can causally affect B), you need:
+```math
 [
 \Delta t \ge |\Delta x| \quad \text{and}\quad \Delta t>0
 ]
-
+```
 ---
 
 ## 2) Light-cone inequalities
 
-Future of event (E=(t_0,x_0)):
+Future of event ($E=(t_0,x_0)$):
+```math
 [
 t\ge t_0,\qquad t-t_0 \ge |x-x_0|
 ]
-
+```
 Past of event (E):
+```math
 [
 t\le t_0,\qquad t_0-t \ge |x-x_0|
 ]
-
-So for (A=(0,0)) and (B=(T,X)):
+```
+So for ($A=(0,0)$) and ($B=(T,X)$):
 
 **Future cone of A**
 [
