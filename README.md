@@ -247,7 +247,11 @@ $J^+(A)\cap J^+(B)$
 
 If you want, I can extend this to **3+1D** 
 
-replace $|x-X|$ with spatial radius $r=\sqrt{(x-X)^2+(y-Y)^2+(z-Z)^2})$ and show how the diamond becomes a 4D “Alexandrov interval,” with volume formulas in terms of $s^2$.
+replace $|x-X|$ with spatial radius 
+
+$r=\sqrt{(x-X)^2+(y-Y)^2+(z-Z)^2})$ 
+
+and show how the diamond becomes a 4D “Alexandrov interval,” with volume formulas in terms of $s^2$.
 
 //
 
@@ -294,7 +298,7 @@ $|\Delta t|>|\Delta x|$
 
 Meaning: there’s enough time for a slower-than-light object to go from one to the other.
 
-So **one event can causally affect the other** ($if (\Delta t>0$), then ($A\to B)$).
+So **one event can causally affect the other** if $\Delta t>0$, then $A\to B$.
 
 ### 2) $s^2=0$ (null)
 
@@ -384,9 +388,8 @@ There is no literal twisting. In flat spacetime:
 
 * Cones are just sets defined by inequalities like ($t-t_0 \ge |x-x_0|$).
 * “Interlinking” corresponds to **set intersections**:
-
-  * causal diamond ($J^+(A)\cap J^-(B)$) = “A can influence B”
-  * common future ($J^+(A)\cap J^+(B)$) = “something can be influenced by both”
+* causal diamond $J^+(A)\cap J^-(B)$ = “A can influence B”
+* common future $J^+(A)\cap J^+(B)$ = “something can be influenced by both”
 
 ---
 
@@ -437,11 +440,13 @@ Take the Bell state (maximally entangled):
 
 $|\Phi^+\rangle=\frac{|00\rangle+|11\rangle}{\sqrt2}$
 
-The density matrix is ($\rho_{AB}=|\Phi^+\rangle\langle\Phi^+|$).
+The density matrix is $\rho_{AB}=|\Phi^+\rangle\langle\Phi^+|$.
 
 Bob’s **local** state is the reduced density matrix:
 
-$\rho_B = \mathrm{Tr}*A(\rho*{AB}) = \frac{I}{2}$
+```math
+\rho_B = \mathrm{Tr}*A(\rho*{AB}) = \frac{I}{2}
+```
 
 That means: **from Bob’s perspective alone, his qubit is just 50/50 random**, no matter what.
 
@@ -499,7 +504,7 @@ Use this rule of thumb:
 So in your spacetime-diagram language:
 
 * (A) and (B) can be spacelike.
-* The “meaning” of entanglement becomes operational only at ($C \in J^+(A)\cap J^+(B)$).
+* The “meaning” of entanglement becomes operational only at $C \in J^+(A)\cap J^+(B)$.
 
 ---
 
@@ -721,14 +726,19 @@ So even though (P(a,b\mid x,y)) can be “spooky,” Bob **cannot** look at his 
 
 ### (B) Density matrix form (cleanest “local state doesn’t change” proof)
 
-Start with an entangled state (\rho_{AB}). Bob’s local state is:
+Start with an entangled state $\rho_{AB}$. 
 
-$\rho_B=\mathrm{Tr}*A(\rho*{AB})$
+Bob’s local state is:
 
+```math
+\rho_B=\mathrm{Tr}*A(\rho*{AB})
+```
 
 If Alice measures (any basis) but Bob **doesn’t learn her outcome**, Bob’s *unconditional* state becomes:
 
-$\rho'_B = \sum_a \mathrm{Tr}*A!\big[(M_a\otimes I),\rho*{AB},(M_a^\dagger\otimes I)\big]$
+```math
+\rho'_B = \sum_a \mathrm{Tr}*A!\big[(M_a\otimes I),\rho*{AB},(M_a^\dagger\otimes I)\big]
+```
 
 Quantum mechanics ensures (for a complete measurement) that:
 
@@ -739,7 +749,7 @@ That’s “no signalling” in operator form.
 
 ### (C) “Spooky” quantified: Bell/CHSH violation (correlation stronger than classical)
 
-If outcomes are (\pm 1), define correlators
+If outcomes are $\pm 1$, define correlators
 
 $E(x,y)=\sum_{a,b=\pm1} ab,P(a,b\mid x,y)$
 
@@ -748,8 +758,8 @@ CHSH combination:
 $S = E(0,0)+E(0,1)+E(1,0)-E(1,1)$
 
 
-* Any **local hidden-variable** theory: ($|S|\le 2$)
-* Quantum theory: can reach ($|S|\le 2\sqrt 2$)
+* Any **local hidden-variable** theory: $|S|\le 2$
+* Quantum theory: can reach $|S|\le 2\sqrt 2$
 
 So quantum correlations are genuinely “nonlocal” in the Bell sense — but they still obey the no-signalling marginal constraints above.
 
@@ -916,7 +926,7 @@ The light cone approach makes you think about discrete events intersecting. But 
 - Geodesics $γ_v(t) = exp_p(tv)$
 - Parallel transport along these geodesics
 
-The **C^∞ smoothness** of these structures IS spacetime continuity. Not light cone intersections.
+The **$C^∞$ smoothness** of these structures IS spacetime continuity. Not light cone intersections.
 
 This is the real differential geometry foundation - much more satisfying than the light cone picture!
 
