@@ -213,10 +213,8 @@ $s^2 = 2^2-1^2 = 3>0\quad \text{(timelike)}$
 Diamond vertices:
 
 ```math
-[
 (0,0),\ \left(\frac{2-1}{2},-\frac{2-1}{2}\right)=(0.5,-0.5),\
 \left(\frac{2+1}{2},\frac{2+1}{2}\right)=(1.5,1.5),\ (2,1)
-]
 ```
 
 Area:
