@@ -1,3 +1,44 @@
+### Light Cone - Summary (with the key maths)
+
+* A “light cone” isn’t something that literally wraps/twists—**in flat (special relativistic) spacetime it’s just a geometric region** of events that can be reached by signals moving at speed (\le c).
+
+* To decide whether two events’ cones overlap in a **causal** way, compute the spacetime interval between them.
+
+#### Interval between two events
+
+Let
+
+* $A=(t_A,x_A)=(0,0)$
+* $B=(t_B,x_B)$
+
+With (c=1):
+$s^2 = (t_B-t_A)^2-(x_B-x_A)^2 = t_B^2-x_B^2$
+
+
+* **$s^2>0$ (timelike):** causal connection possible (a slower-than-light object could go between them). The **future cone of A intersects the past cone of B**.
+* **$s^2=0$ (null):** light connects them exactly on the cone boundary.
+* **$s^2<0$ (spacelike):** no causal connection (no signal can go from one to the other).
+
+#### Examples
+
+* $B=(2,1)$:
+
+$s^2=2^2-1^2=4-1=3>0$
+
+  → timelike → causal overlap exists.
+
+* $B=(2,3)$:
+
+$s^2=2^2-3^2=4-9=-5<0$
+
+  → spacelike → no causal overlap.
+
+#### What the diagrams show
+
+Spacetime plots (time up, space across) draw cone edges as **45° lines** (light paths). “Wrapping/interlinking” is just **overlap/intersection regions** of these cones, indicating where causal influence is possible.
+
+
+
 ```
 import numpy as np
 import matplotlib.pyplot as plt
